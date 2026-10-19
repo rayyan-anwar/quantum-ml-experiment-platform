@@ -1,0 +1,1674 @@
+{
+  "created_utc": "2026-10-17T07:59:30+00:00",
+  "environment": {
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "numpy": "2.4.4",
+    "cpu_count": 1
+  },
+  "suite": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "vqc_config": {
+      "n_qubits": 2,
+      "layers": 3,
+      "reupload": true,
+      "epochs": 60,
+      "lr": 0.1
+    },
+    "rows": [
+      {
+        "dataset": "moons",
+        "seed": 0,
+        "model": "logreg",
+        "train_acc": 0.9097222222222222,
+        "test_acc": 0.875,
+        "test_f1": 0.8741258741258742,
+        "seconds": 0.022581505999994533,
+        "params": 3,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 0,
+        "model": "svm_rbf",
+        "train_acc": 0.9583333333333334,
+        "test_acc": 0.9479166666666666,
+        "test_f1": 0.9479110146500271,
+        "seconds": 0.03998959000000468,
+        "params": 38,
+        "best": {
+          "C": "1",
+          "gamma": "2.0"
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 0,
+        "model": "mlp",
+        "train_acc": 0.8958333333333334,
+        "test_acc": 0.8854166666666666,
+        "test_f1": 0.884804188938584,
+        "seconds": 0.06731066300000066,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "moons",
+        "seed": 0,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.8333333333333334,
+        "test_acc": 0.6666666666666666,
+        "test_f1": 0.6653594771241831,
+        "seconds": 0.020798625999987053,
+        "params": 96,
+        "best": {
+          "C": 1
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 0,
+        "model": "vqc",
+        "train_acc": 0.9513888888888888,
+        "test_acc": 0.9375,
+        "test_f1": 0.9374728614850196,
+        "seconds": 1.1470463069999823,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 1,
+        "model": "logreg",
+        "train_acc": 0.8472222222222222,
+        "test_acc": 0.84375,
+        "test_f1": 0.8437330439500814,
+        "seconds": 0.017189430999991373,
+        "params": 3,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 1,
+        "model": "svm_rbf",
+        "train_acc": 0.9861111111111112,
+        "test_acc": 0.96875,
+        "test_f1": 0.9687466087900163,
+        "seconds": 0.03092121899999256,
+        "params": 21,
+        "best": {
+          "C": "10",
+          "gamma": "2.0"
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 1,
+        "model": "mlp",
+        "train_acc": 0.8472222222222222,
+        "test_acc": 0.84375,
+        "test_f1": 0.8437330439500814,
+        "seconds": 0.11866018899999631,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "moons",
+        "seed": 1,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.7916666666666666,
+        "test_acc": 0.7291666666666666,
+        "test_f1": 0.7214285714285715,
+        "seconds": 0.01712868000001322,
+        "params": 96,
+        "best": {
+          "C": 1
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 1,
+        "model": "vqc",
+        "train_acc": 0.9513888888888888,
+        "test_acc": 0.9375,
+        "test_f1": 0.9375,
+        "seconds": 1.0931644489999996,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 2,
+        "model": "logreg",
+        "train_acc": 0.8888888888888888,
+        "test_acc": 0.8541666666666666,
+        "test_f1": 0.8539130434782609,
+        "seconds": 0.02221927099998311,
+        "params": 3,
+        "best": {
+          "C": 1
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 2,
+        "model": "svm_rbf",
+        "train_acc": 0.9791666666666666,
+        "test_acc": 0.96875,
+        "test_f1": 0.9687194525904204,
+        "seconds": 0.041636165999989316,
+        "params": 22,
+        "best": {
+          "C": "10",
+          "gamma": "2.0"
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 2,
+        "model": "mlp",
+        "train_acc": 0.8888888888888888,
+        "test_acc": 0.84375,
+        "test_f1": 0.8429148030980691,
+        "seconds": 0.1853329090000102,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "moons",
+        "seed": 2,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.8263888888888888,
+        "test_acc": 0.75,
+        "test_f1": 0.7498914459400781,
+        "seconds": 0.022512662999986333,
+        "params": 75,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 2,
+        "model": "vqc",
+        "train_acc": 0.9583333333333334,
+        "test_acc": 0.9375,
+        "test_f1": 0.9372549019607843,
+        "seconds": 1.1606443389999868,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 3,
+        "model": "logreg",
+        "train_acc": 0.9236111111111112,
+        "test_acc": 0.7916666666666666,
+        "test_f1": 0.791304347826087,
+        "seconds": 0.01980589199999372,
+        "params": 3,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 3,
+        "model": "svm_rbf",
+        "train_acc": 0.9791666666666666,
+        "test_acc": 0.9270833333333334,
+        "test_f1": 0.927012056044314,
+        "seconds": 0.03501266600000008,
+        "params": 22,
+        "best": {
+          "C": "10",
+          "gamma": "2.0"
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 3,
+        "model": "mlp",
+        "train_acc": 0.8958333333333334,
+        "test_acc": 0.7916666666666666,
+        "test_f1": 0.791304347826087,
+        "seconds": 0.12789896999998973,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "moons",
+        "seed": 3,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.8194444444444444,
+        "test_acc": 0.7291666666666666,
+        "test_f1": 0.7290490664350847,
+        "seconds": 0.017957730000006222,
+        "params": 72,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 3,
+        "model": "vqc",
+        "train_acc": 0.9375,
+        "test_acc": 0.8229166666666666,
+        "test_f1": 0.8224349907518225,
+        "seconds": 0.8270156510000106,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 4,
+        "model": "logreg",
+        "train_acc": 0.8611111111111112,
+        "test_acc": 0.8854166666666666,
+        "test_f1": 0.8853046594982079,
+        "seconds": 0.019368520000000444,
+        "params": 3,
+        "best": {
+          "C": 0.1
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 4,
+        "model": "svm_rbf",
+        "train_acc": 0.9930555555555556,
+        "test_acc": 0.9583333333333334,
+        "test_f1": 0.9583152409900131,
+        "seconds": 0.03560194499999625,
+        "params": 21,
+        "best": {
+          "C": "10",
+          "gamma": "2.0"
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 4,
+        "model": "mlp",
+        "train_acc": 0.8333333333333334,
+        "test_acc": 0.84375,
+        "test_f1": 0.8437330439500814,
+        "seconds": 0.12027601900001628,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "moons",
+        "seed": 4,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.875,
+        "test_acc": 0.8541666666666666,
+        "test_f1": 0.8535947712418301,
+        "seconds": 0.017726399999986597,
+        "params": 70,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "moons",
+        "seed": 4,
+        "model": "vqc",
+        "train_acc": 0.8888888888888888,
+        "test_acc": 0.90625,
+        "test_f1": 0.906158357771261,
+        "seconds": 0.8169226139999921,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 0,
+        "model": "logreg",
+        "train_acc": 0.5486111111111112,
+        "test_acc": 0.4479166666666667,
+        "test_f1": 0.44785675529028757,
+        "seconds": 0.0182522439999957,
+        "params": 3,
+        "best": {
+          "C": 0.1
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 0,
+        "model": "svm_rbf",
+        "train_acc": 0.9930555555555556,
+        "test_acc": 0.9895833333333334,
+        "test_f1": 0.9895822029300054,
+        "seconds": 0.03808797799999297,
+        "params": 42,
+        "best": {
+          "C": "1",
+          "gamma": "scale"
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 0,
+        "model": "mlp",
+        "train_acc": 0.5694444444444444,
+        "test_acc": 0.5,
+        "test_f1": 0.4945151382185169,
+        "seconds": 0.03777079400001071,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "circles",
+        "seed": 0,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.8472222222222222,
+        "test_acc": 0.84375,
+        "test_f1": 0.8437330439500814,
+        "seconds": 0.017825923999993165,
+        "params": 73,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 0,
+        "model": "vqc",
+        "train_acc": 0.8819444444444444,
+        "test_acc": 0.84375,
+        "test_f1": 0.8408312147673263,
+        "seconds": 0.8334800080000093,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 1,
+        "model": "logreg",
+        "train_acc": 0.5347222222222222,
+        "test_acc": 0.46875,
+        "test_f1": 0.464039408866995,
+        "seconds": 0.018055437000015218,
+        "params": 3,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 1,
+        "model": "svm_rbf",
+        "train_acc": 0.9930555555555556,
+        "test_acc": 1.0,
+        "test_f1": 1.0,
+        "seconds": 0.03615789100001621,
+        "params": 18,
+        "best": {
+          "C": "10",
+          "gamma": "0.5"
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 1,
+        "model": "mlp",
+        "train_acc": 0.9236111111111112,
+        "test_acc": 0.9166666666666666,
+        "test_f1": 0.9165217391304348,
+        "seconds": 0.35878896500000224,
+        "params": 33,
+        "converged": false
+      },
+      {
+        "dataset": "circles",
+        "seed": 1,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.8958333333333334,
+        "test_acc": 0.8541666666666666,
+        "test_f1": 0.8535947712418301,
+        "seconds": 0.017708381999995026,
+        "params": 51,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 1,
+        "model": "vqc",
+        "train_acc": 0.9861111111111112,
+        "test_acc": 1.0,
+        "test_f1": 1.0,
+        "seconds": 0.8872097180000083,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 2,
+        "model": "logreg",
+        "train_acc": 0.5277777777777778,
+        "test_acc": 0.5208333333333334,
+        "test_f1": 0.5104212860310421,
+        "seconds": 0.019060749000004762,
+        "params": 3,
+        "best": {
+          "C": 0.1
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 2,
+        "model": "svm_rbf",
+        "train_acc": 0.9930555555555556,
+        "test_acc": 1.0,
+        "test_f1": 1.0,
+        "seconds": 0.03882201900000837,
+        "params": 47,
+        "best": {
+          "C": "1",
+          "gamma": "0.5"
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 2,
+        "model": "mlp",
+        "train_acc": 0.6111111111111112,
+        "test_acc": 0.6354166666666666,
+        "test_f1": 0.6286061677904278,
+        "seconds": 0.020598111999987623,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "circles",
+        "seed": 2,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.8819444444444444,
+        "test_acc": 0.9270833333333334,
+        "test_f1": 0.927075420510038,
+        "seconds": 0.01821429500000704,
+        "params": 66,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 2,
+        "model": "vqc",
+        "train_acc": 0.9652777777777778,
+        "test_acc": 0.9791666666666666,
+        "test_f1": 0.9791666666666666,
+        "seconds": 0.8527008419999902,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 3,
+        "model": "logreg",
+        "train_acc": 0.5,
+        "test_acc": 0.5104166666666666,
+        "test_f1": 0.50779971637395,
+        "seconds": 0.018820903999994698,
+        "params": 3,
+        "best": {
+          "C": 0.1
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 3,
+        "model": "svm_rbf",
+        "train_acc": 1.0,
+        "test_acc": 1.0,
+        "test_f1": 1.0,
+        "seconds": 0.03784547800000837,
+        "params": 39,
+        "best": {
+          "C": "1",
+          "gamma": "scale"
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 3,
+        "model": "mlp",
+        "train_acc": 0.5416666666666666,
+        "test_acc": 0.625,
+        "test_f1": 0.6,
+        "seconds": 0.05175319999997896,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "circles",
+        "seed": 3,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.8611111111111112,
+        "test_acc": 0.8125,
+        "test_f1": 0.8121739130434782,
+        "seconds": 0.018712445999994998,
+        "params": 63,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 3,
+        "model": "vqc",
+        "train_acc": 0.8680555555555556,
+        "test_acc": 0.8541666666666666,
+        "test_f1": 0.8518518518518519,
+        "seconds": 0.8585718699999916,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 4,
+        "model": "logreg",
+        "train_acc": 0.5277777777777778,
+        "test_acc": 0.4479166666666667,
+        "test_f1": 0.44785675529028757,
+        "seconds": 0.01806893599999171,
+        "params": 3,
+        "best": {
+          "C": 1
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 4,
+        "model": "svm_rbf",
+        "train_acc": 1.0,
+        "test_acc": 0.9895833333333334,
+        "test_f1": 0.9895822029300054,
+        "seconds": 0.0368444280000233,
+        "params": 41,
+        "best": {
+          "C": "1",
+          "gamma": "scale"
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 4,
+        "model": "mlp",
+        "train_acc": 0.9791666666666666,
+        "test_acc": 0.9791666666666666,
+        "test_f1": 0.9791666666666666,
+        "seconds": 0.3233344500000044,
+        "params": 33,
+        "converged": false
+      },
+      {
+        "dataset": "circles",
+        "seed": 4,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.8402777777777778,
+        "test_acc": 0.8229166666666666,
+        "test_f1": 0.8196087100696363,
+        "seconds": 0.018348460999987992,
+        "params": 93,
+        "best": {
+          "C": 1
+        }
+      },
+      {
+        "dataset": "circles",
+        "seed": 4,
+        "model": "vqc",
+        "train_acc": 0.9583333333333334,
+        "test_acc": 0.9270833333333334,
+        "test_f1": 0.927012056044314,
+        "seconds": 0.8202858289999995,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 0,
+        "model": "logreg",
+        "train_acc": 0.5208333333333334,
+        "test_acc": 0.3854166666666667,
+        "test_f1": 0.3603613777526821,
+        "seconds": 0.019235909999991918,
+        "params": 3,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 0,
+        "model": "svm_rbf",
+        "train_acc": 0.9652777777777778,
+        "test_acc": 0.9479166666666666,
+        "test_f1": 0.9474548440065681,
+        "seconds": 0.0368369830000006,
+        "params": 105,
+        "best": {
+          "C": "0.1",
+          "gamma": "2.0"
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 0,
+        "model": "mlp",
+        "train_acc": 0.5694444444444444,
+        "test_acc": 0.5729166666666666,
+        "test_f1": 0.4049886621315193,
+        "seconds": 0.06267360999999028,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 0,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.9027777777777778,
+        "test_acc": 0.84375,
+        "test_f1": 0.8386916097233112,
+        "seconds": 0.018656891000006226,
+        "params": 60,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 0,
+        "model": "vqc",
+        "train_acc": 0.8958333333333334,
+        "test_acc": 0.9270833333333334,
+        "test_f1": 0.9257212335580856,
+        "seconds": 0.8454497980000042,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 1,
+        "model": "logreg",
+        "train_acc": 0.4722222222222222,
+        "test_acc": 0.4270833333333333,
+        "test_f1": 0.4220032840722496,
+        "seconds": 0.020677115000012236,
+        "params": 3,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 1,
+        "model": "svm_rbf",
+        "train_acc": 0.9444444444444444,
+        "test_acc": 0.9166666666666666,
+        "test_f1": 0.9165217391304348,
+        "seconds": 0.03815054400001827,
+        "params": 38,
+        "best": {
+          "C": "10",
+          "gamma": "0.5"
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 1,
+        "model": "mlp",
+        "train_acc": 0.8888888888888888,
+        "test_acc": 0.8854166666666666,
+        "test_f1": 0.8854042322300597,
+        "seconds": 0.2675800709999976,
+        "params": 33,
+        "converged": false
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 1,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.7638888888888888,
+        "test_acc": 0.75,
+        "test_f1": 0.7498914459400781,
+        "seconds": 0.015505375000003596,
+        "params": 90,
+        "best": {
+          "C": 1
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 1,
+        "model": "vqc",
+        "train_acc": 0.9305555555555556,
+        "test_acc": 0.96875,
+        "test_f1": 0.9687466087900163,
+        "seconds": 0.6679321860000016,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 2,
+        "model": "logreg",
+        "train_acc": 0.4791666666666667,
+        "test_acc": 0.46875,
+        "test_f1": 0.3191489361702128,
+        "seconds": 0.014818600000012339,
+        "params": 3,
+        "best": {
+          "C": 1
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 2,
+        "model": "svm_rbf",
+        "train_acc": 0.9791666666666666,
+        "test_acc": 0.9583333333333334,
+        "test_f1": 0.9581699346405229,
+        "seconds": 0.046812021999983244,
+        "params": 115,
+        "best": {
+          "C": "0.1",
+          "gamma": "scale"
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 2,
+        "model": "mlp",
+        "train_acc": 0.9097222222222222,
+        "test_acc": 0.8645833333333334,
+        "test_f1": 0.8644509612251547,
+        "seconds": 0.23159846000001494,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 2,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.8541666666666666,
+        "test_acc": 0.7291666666666666,
+        "test_f1": 0.7214285714285715,
+        "seconds": 0.014185131000004958,
+        "params": 59,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 2,
+        "model": "vqc",
+        "train_acc": 0.9375,
+        "test_acc": 0.9375,
+        "test_f1": 0.9373913043478261,
+        "seconds": 0.6344933760000231,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 3,
+        "model": "logreg",
+        "train_acc": 0.7013888888888888,
+        "test_acc": 0.6666666666666666,
+        "test_f1": 0.6594235033259424,
+        "seconds": 0.013757025000018075,
+        "params": 3,
+        "best": {
+          "C": 0.1
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 3,
+        "model": "svm_rbf",
+        "train_acc": 0.9583333333333334,
+        "test_acc": 0.9166666666666666,
+        "test_f1": 0.9166304819800261,
+        "seconds": 0.027474108000006936,
+        "params": 26,
+        "best": {
+          "C": "10",
+          "gamma": "scale"
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 3,
+        "model": "mlp",
+        "train_acc": 0.5972222222222222,
+        "test_acc": 0.5729166666666666,
+        "test_f1": 0.523198061780739,
+        "seconds": 0.03219328099999075,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 3,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.8125,
+        "test_acc": 0.75,
+        "test_f1": 0.7490196078431373,
+        "seconds": 0.013460301000009167,
+        "params": 87,
+        "best": {
+          "C": 1
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 3,
+        "model": "vqc",
+        "train_acc": 0.9236111111111112,
+        "test_acc": 0.9479166666666666,
+        "test_f1": 0.9479110146500271,
+        "seconds": 0.876348299,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 4,
+        "model": "logreg",
+        "train_acc": 0.5277777777777778,
+        "test_acc": 0.4791666666666667,
+        "test_f1": 0.47089947089947093,
+        "seconds": 0.015681846999996196,
+        "params": 3,
+        "best": {
+          "C": 0.1
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 4,
+        "model": "svm_rbf",
+        "train_acc": 0.9375,
+        "test_acc": 0.9270833333333334,
+        "test_f1": 0.9261132490379329,
+        "seconds": 0.029603326000000152,
+        "params": 56,
+        "best": {
+          "C": "1",
+          "gamma": "0.5"
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 4,
+        "model": "mlp",
+        "train_acc": 0.9027777777777778,
+        "test_acc": 0.9166666666666666,
+        "test_f1": 0.9166304819800261,
+        "seconds": 0.3476858669999956,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 4,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.8472222222222222,
+        "test_acc": 0.7395833333333334,
+        "test_f1": 0.7395550732501357,
+        "seconds": 0.01833527300001947,
+        "params": 72,
+        "best": {
+          "C": 1
+        }
+      },
+      {
+        "dataset": "xor_blobs",
+        "seed": 4,
+        "model": "vqc",
+        "train_acc": 0.9513888888888888,
+        "test_acc": 0.9166666666666666,
+        "test_f1": 0.916083916083916,
+        "seconds": 0.9097097500000189,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 0,
+        "model": "logreg",
+        "train_acc": 0.8833333333333333,
+        "test_acc": 1.0,
+        "test_f1": 1.0,
+        "seconds": 0.0205712020000135,
+        "params": 3,
+        "best": {
+          "C": 0.1
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 0,
+        "model": "svm_rbf",
+        "train_acc": 0.9166666666666666,
+        "test_acc": 1.0,
+        "test_f1": 1.0,
+        "seconds": 0.04774751499999752,
+        "params": 25,
+        "best": {
+          "C": "1",
+          "gamma": "2.0"
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 0,
+        "model": "mlp",
+        "train_acc": 0.9,
+        "test_acc": 1.0,
+        "test_f1": 1.0,
+        "seconds": 0.14586134799998263,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 0,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.8666666666666667,
+        "test_acc": 0.675,
+        "test_f1": 0.6484110885733604,
+        "seconds": 0.012796040999973002,
+        "params": 32,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 0,
+        "model": "vqc",
+        "train_acc": 0.9,
+        "test_acc": 1.0,
+        "test_f1": 1.0,
+        "seconds": 0.41174996700002,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 1,
+        "model": "logreg",
+        "train_acc": 0.9333333333333333,
+        "test_acc": 0.925,
+        "test_f1": 0.9249530956848031,
+        "seconds": 0.01582383300001311,
+        "params": 3,
+        "best": {
+          "C": 0.1
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 1,
+        "model": "svm_rbf",
+        "train_acc": 0.95,
+        "test_acc": 0.95,
+        "test_f1": 0.95,
+        "seconds": 0.03208328600001664,
+        "params": 16,
+        "best": {
+          "C": "1",
+          "gamma": "scale"
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 1,
+        "model": "mlp",
+        "train_acc": 0.95,
+        "test_acc": 0.95,
+        "test_f1": 0.95,
+        "seconds": 0.14196406899998237,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 1,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.9,
+        "test_acc": 0.75,
+        "test_f1": 0.7493734335839599,
+        "seconds": 0.012139711000003217,
+        "params": 29,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 1,
+        "model": "vqc",
+        "train_acc": 0.9333333333333333,
+        "test_acc": 0.925,
+        "test_f1": 0.9249530956848031,
+        "seconds": 0.40410402899999553,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 2,
+        "model": "logreg",
+        "train_acc": 0.9666666666666667,
+        "test_acc": 0.9,
+        "test_f1": 0.899749373433584,
+        "seconds": 0.020955710999999155,
+        "params": 3,
+        "best": {
+          "C": 0.1
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 2,
+        "model": "svm_rbf",
+        "train_acc": 0.9833333333333333,
+        "test_acc": 0.925,
+        "test_f1": 0.9249530956848031,
+        "seconds": 0.03348283799999763,
+        "params": 19,
+        "best": {
+          "C": "10",
+          "gamma": "2.0"
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 2,
+        "model": "mlp",
+        "train_acc": 0.9666666666666667,
+        "test_acc": 0.9,
+        "test_f1": 0.899749373433584,
+        "seconds": 0.24636929300001498,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 2,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.9166666666666666,
+        "test_acc": 0.7,
+        "test_f1": 0.696969696969697,
+        "seconds": 0.017521324000000504,
+        "params": 29,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 2,
+        "model": "vqc",
+        "train_acc": 0.95,
+        "test_acc": 0.925,
+        "test_f1": 0.9249530956848031,
+        "seconds": 0.44350635699998975,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 3,
+        "model": "logreg",
+        "train_acc": 0.95,
+        "test_acc": 0.925,
+        "test_f1": 0.9249530956848031,
+        "seconds": 0.02602150199999187,
+        "params": 3,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 3,
+        "model": "svm_rbf",
+        "train_acc": 0.95,
+        "test_acc": 0.95,
+        "test_f1": 0.95,
+        "seconds": 0.036143191000007846,
+        "params": 11,
+        "best": {
+          "C": "10",
+          "gamma": "scale"
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 3,
+        "model": "mlp",
+        "train_acc": 0.9333333333333333,
+        "test_acc": 0.925,
+        "test_f1": 0.9249530956848031,
+        "seconds": 0.42414517200001,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 3,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.8,
+        "test_acc": 0.7,
+        "test_f1": 0.6930946291560103,
+        "seconds": 0.032168082999987746,
+        "params": 60,
+        "best": {
+          "C": 0.1
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 3,
+        "model": "vqc",
+        "train_acc": 0.95,
+        "test_acc": 0.925,
+        "test_f1": 0.9249530956848031,
+        "seconds": 0.5319574209999871,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 4,
+        "model": "logreg",
+        "train_acc": 0.9333333333333333,
+        "test_acc": 0.95,
+        "test_f1": 0.949874686716792,
+        "seconds": 0.019933772999991106,
+        "params": 3,
+        "best": {
+          "C": 0.1
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 4,
+        "model": "svm_rbf",
+        "train_acc": 0.9333333333333333,
+        "test_acc": 0.95,
+        "test_f1": 0.949874686716792,
+        "seconds": 0.03279771300000789,
+        "params": 45,
+        "best": {
+          "C": "0.1",
+          "gamma": "scale"
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 4,
+        "model": "mlp",
+        "train_acc": 0.9333333333333333,
+        "test_acc": 0.95,
+        "test_f1": 0.949874686716792,
+        "seconds": 0.14105631099999982,
+        "params": 33,
+        "converged": true
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 4,
+        "model": "quantum_kernel_svm",
+        "train_acc": 0.9166666666666666,
+        "test_acc": 0.75,
+        "test_f1": 0.7493734335839599,
+        "seconds": 0.01609694699999409,
+        "params": 27,
+        "best": {
+          "C": 10
+        }
+      },
+      {
+        "dataset": "iris_vv",
+        "seed": 4,
+        "model": "vqc",
+        "train_acc": 0.9166666666666666,
+        "test_acc": 0.975,
+        "test_f1": 0.9749843652282677,
+        "seconds": 0.41634965400001533,
+        "params": 13,
+        "config": {
+          "n_qubits": 2,
+          "layers": 3,
+          "reupload": true,
+          "epochs": 60,
+          "lr": 0.1
+        }
+      }
+    ],
+    "aggregate": {
+      "moons": {
+        "logreg": {
+          "test_acc_mean": 0.85,
+          "test_acc_std": 0.03653266232656288,
+          "test_f1_mean": 0.8496761937757024,
+          "train_acc_mean": 0.8861111111111111,
+          "n_seeds": 5,
+          "params": 3
+        },
+        "svm_rbf": {
+          "test_acc_mean": 0.9541666666666666,
+          "test_acc_std": 0.0174304172194599,
+          "test_f1_mean": 0.9541408746129582,
+          "train_acc_mean": 0.9791666666666666,
+          "n_seeds": 5,
+          "params": 38
+        },
+        "mlp": {
+          "test_acc_mean": 0.8416666666666666,
+          "test_acc_std": 0.03326816546389857,
+          "test_f1_mean": 0.8412978855525806,
+          "train_acc_mean": 0.8722222222222223,
+          "n_seeds": 5,
+          "params": 33
+        },
+        "quantum_kernel_svm": {
+          "test_acc_mean": 0.7458333333333332,
+          "test_acc_std": 0.06814761347415053,
+          "test_f1_mean": 0.7438646664339494,
+          "train_acc_mean": 0.8291666666666666,
+          "n_seeds": 5,
+          "params": 96
+        },
+        "vqc": {
+          "test_acc_mean": 0.9083333333333332,
+          "test_acc_std": 0.04962970520654833,
+          "test_f1_mean": 0.9081642223937776,
+          "train_acc_mean": 0.9375,
+          "n_seeds": 5,
+          "params": 13
+        }
+      },
+      "circles": {
+        "logreg": {
+          "test_acc_mean": 0.47916666666666663,
+          "test_acc_std": 0.03454817489953541,
+          "test_f1_mean": 0.47559478437051245,
+          "train_acc_mean": 0.5277777777777778,
+          "n_seeds": 5,
+          "params": 3
+        },
+        "svm_rbf": {
+          "test_acc_mean": 0.9958333333333333,
+          "test_acc_std": 0.005705443307345461,
+          "test_f1_mean": 0.9958328811720023,
+          "train_acc_mean": 0.9958333333333333,
+          "n_seeds": 5,
+          "params": 42
+        },
+        "mlp": {
+          "test_acc_mean": 0.73125,
+          "test_acc_std": 0.20602892191793526,
+          "test_f1_mean": 0.7237619423612092,
+          "train_acc_mean": 0.725,
+          "n_seeds": 5,
+          "params": 33
+        },
+        "quantum_kernel_svm": {
+          "test_acc_mean": 0.8520833333333334,
+          "test_acc_std": 0.04504530898008263,
+          "test_f1_mean": 0.8512371717630127,
+          "train_acc_mean": 0.8652777777777778,
+          "n_seeds": 5,
+          "params": 73
+        },
+        "vqc": {
+          "test_acc_mean": 0.9208333333333332,
+          "test_acc_std": 0.07087927431751667,
+          "test_f1_mean": 0.9197723578660316,
+          "train_acc_mean": 0.9319444444444445,
+          "n_seeds": 5,
+          "params": 13
+        }
+      },
+      "xor_blobs": {
+        "logreg": {
+          "test_acc_mean": 0.4854166666666666,
+          "test_acc_std": 0.10790178468815464,
+          "test_f1_mean": 0.4463673144441115,
+          "train_acc_mean": 0.5402777777777777,
+          "n_seeds": 5,
+          "params": 3
+        },
+        "svm_rbf": {
+          "test_acc_mean": 0.9333333333333332,
+          "test_acc_std": 0.018922814713109342,
+          "test_f1_mean": 0.932978049759097,
+          "train_acc_mean": 0.9569444444444445,
+          "n_seeds": 5,
+          "params": 105
+        },
+        "mlp": {
+          "test_acc_mean": 0.7625,
+          "test_acc_std": 0.17405498811837852,
+          "test_f1_mean": 0.7189344798694998,
+          "train_acc_mean": 0.773611111111111,
+          "n_seeds": 5,
+          "params": 33
+        },
+        "quantum_kernel_svm": {
+          "test_acc_mean": 0.7625,
+          "test_acc_std": 0.04623404379410864,
+          "test_f1_mean": 0.7597172616370468,
+          "train_acc_mean": 0.836111111111111,
+          "n_seeds": 5,
+          "params": 60
+        },
+        "vqc": {
+          "test_acc_mean": 0.9395833333333334,
+          "test_acc_std": 0.02003685839757432,
+          "test_f1_mean": 0.9391708154859743,
+          "train_acc_mean": 0.9277777777777778,
+          "n_seeds": 5,
+          "params": 13
+        }
+      },
+      "iris_vv": {
+        "logreg": {
+          "test_acc_mean": 0.9400000000000001,
+          "test_acc_std": 0.037914377220257735,
+          "test_f1_mean": 0.9399060503039964,
+          "train_acc_mean": 0.9333333333333333,
+          "n_seeds": 5,
+          "params": 3
+        },
+        "svm_rbf": {
+          "test_acc_mean": 0.9550000000000001,
+          "test_acc_std": 0.0273861278752583,
+          "test_f1_mean": 0.954965556480319,
+          "train_acc_mean": 0.9466666666666667,
+          "n_seeds": 5,
+          "params": 25
+        },
+        "mlp": {
+          "test_acc_mean": 0.9450000000000001,
+          "test_acc_std": 0.0370809924354783,
+          "test_f1_mean": 0.9449154311670357,
+          "train_acc_mean": 0.9366666666666668,
+          "n_seeds": 5,
+          "params": 33
+        },
+        "quantum_kernel_svm": {
+          "test_acc_mean": 0.7150000000000001,
+          "test_acc_std": 0.03354101966249684,
+          "test_f1_mean": 0.7074444563733975,
+          "train_acc_mean": 0.8800000000000001,
+          "n_seeds": 5,
+          "params": 32
+        },
+        "vqc": {
+          "test_acc_mean": 0.95,
+          "test_acc_std": 0.03535533905932735,
+          "test_f1_mean": 0.9499687304565354,
+          "train_acc_mean": 0.93,
+          "n_seeds": 5,
+          "params": 13
+        }
+      }
+    }
+  },
+  "ablation": {
+    "dataset": "moons",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "results": {
+      "reupload=False,layers=1": {
+        "test_acc_mean": 0.66875,
+        "test_acc_std": 0.024869450804819424,
+        "params": 5
+      },
+      "reupload=False,layers=2": {
+        "test_acc_mean": 0.8520833333333332,
+        "test_acc_std": 0.04852422791188385,
+        "params": 9
+      },
+      "reupload=False,layers=3": {
+        "test_acc_mean": 0.8395833333333333,
+        "test_acc_std": 0.04074501503251655,
+        "params": 13
+      },
+      "reupload=False,layers=4": {
+        "test_acc_mean": 0.85,
+        "test_acc_std": 0.047507309379130745,
+        "params": 17
+      },
+      "reupload=True,layers=1": {
+        "test_acc_mean": 0.66875,
+        "test_acc_std": 0.024869450804819424,
+        "params": 5
+      },
+      "reupload=True,layers=2": {
+        "test_acc_mean": 0.7041666666666667,
+        "test_acc_std": 0.04205547757955487,
+        "params": 9
+      },
+      "reupload=True,layers=3": {
+        "test_acc_mean": 0.9083333333333332,
+        "test_acc_std": 0.04962970520654833,
+        "params": 13
+      },
+      "reupload=True,layers=4": {
+        "test_acc_mean": 0.9291666666666668,
+        "test_acc_std": 0.029828793881825747,
+        "params": 17
+      }
+    }
+  },
+  "training_curve_moons_seed0": {
+    "loss": [
+      1.571642146068702,
+      1.3740067549014165,
+      1.2094223804562856,
+      1.0643180723124201,
+      0.9314727618590568,
+      0.8134611518199367,
+      0.7143071485092938,
+      0.6362774052637723,
+      0.5786821030340538,
+      0.5368320997261685,
+      0.5049623096619097,
+      0.4789812536544011,
+      0.4561508657232346,
+      0.4341418548766484,
+      0.4116001315118316,
+      0.3884862060022712,
+      0.3653368922732676,
+      0.3430604618493599,
+      0.32309713149461117,
+      0.30696602411361806,
+      0.29523838148565623,
+      0.28692890202839116,
+      0.28012178069008464,
+      0.2733563837739422,
+      0.2663708779691236,
+      0.2596468329080287,
+      0.253528471422815,
+      0.24789154069274552,
+      0.24254146460215298,
+      0.23769435374028625,
+      0.23392153435078977,
+      0.23162360984835606,
+      0.23060657101545376,
+      0.23022991756499456,
+      0.22995777531521025,
+      0.22966861517569961,
+      0.229446399783173,
+      0.2292428770460104,
+      0.22885959786504056,
+      0.22820446009143117,
+      0.22742906662260876,
+      0.2267567650297154,
+      0.22623648086708423,
+      0.22573308489534932,
+      0.22513206033953917,
+      0.22447230330891457,
+      0.22386193528310525,
+      0.22333087179709427,
+      0.2228224905459564,
+      0.22230737847333895,
+      0.22183952796559497,
+      0.22147866739067001,
+      0.22119738783572995,
+      0.22090233418635205,
+      0.22053274089807565,
+      0.22010181302657633,
+      0.21964294929032102,
+      0.2191570621401887,
+      0.2186364775769744,
+      0.21811381410142905
+    ]
+  },
+  "total_seconds": 48.285360035
+}
